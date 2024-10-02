@@ -1,0 +1,75 @@
+.ticket-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+    transition: box-shadow 0.2s;
+  }
+  
+  .ticket-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-id {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888;
+  }
+  
+  .card-title {
+    font-size: 14px; 
+    font-weight: 500;
+    margin: 8px 0;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .urgent-icon {
+    display: grid;
+    place-items: center;
+    border: 1px solid #edeff2;
+    border-radius: 4px; 
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .card-tag {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 10px;
+    border: 1px solid #edeff2;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .tag-icon {
+    background: #bec2c8;
+    border-radius: 50%;
+    height: 8px; 
+    width: 8px; 
+  }
+  
+  .card-tag-img {
+    margin-right: 5px;
+    height: 12px; /* Increased for better visibility */
+    width: 12px; /* Increased for better visibility */
+  }
+  
+  .card-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .imageContainer {
+    width: 24px; /* Slightly larger for better visibility */
+    border-radius: 50%; /* Use percentage for circular shape */
+  }
+  
